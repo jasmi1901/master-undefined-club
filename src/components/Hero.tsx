@@ -4,7 +4,7 @@ import heroBadminton from "../assets/hero-badminton.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-[28rem] overflow-hidden bg-[#031b3d] sm:min-h-[32rem] lg:min-h-[37.5rem]">
+    <section className="relative min-h-112 overflow-hidden bg-[#031b3d] sm:min-h-128 lg:min-h-150">
       <div className="absolute inset-0">
         <div
           className="absolute left-0 top-0 h-1/2 w-full bg-cover bg-center sm:h-full sm:w-1/2"
@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-[#031b3d]/80" />
       </div>
 
-      <div className="relative z-10 mx-auto flex min-h-[28rem] max-w-7xl items-center justify-center px-4 py-12 text-center text-white sm:min-h-[32rem] sm:px-6 sm:py-14 lg:min-h-[37.5rem]">
+      <div className="relative z-10 mx-auto flex min-h-112 max-w-7xl items-center justify-center px-4 py-12 text-center text-white sm:min-h-128 sm:px-6 sm:py-14 lg:min-h-150">
         <div className="max-w-4xl">
           <div className="mb-5 flex items-center justify-center sm:mb-6">
             <img src={logo} alt="Masters Undefined Club logo" className="h-20 w-20 object-contain sm:h-24 sm:w-24" />

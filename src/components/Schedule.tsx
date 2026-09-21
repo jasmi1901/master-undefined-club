@@ -3,25 +3,25 @@ const scheduleItems = [
     title: "Cricket Training",
     date: "Mon, 20 May 2027",
     time: "06:00 PM – 08:00 PM",
-    location: "Ground 1",
+    location: "Norsborg Ground",
   },
   {
     title: "Badminton Training",
     date: "Tue, 29 sep 2026",
     time: "06:30 PM – 08:30 PM",
-    location: "Court 2",
+    location: "Botkyrka Rackethall",
   },
   {
     title: "Cricket Match",
     date: "Sun, 26 May 2027",
     time: "09:00 AM – 01:00 PM",
-    location: "Ground 1",
+    location: "Norsborg Ground",
   },
   {
     title: "Badminton Match",
     date: "Sun, 22 oct 2026",
     time: "02:00 PM – 05:00 PM",
-    location: "Court 1",
+    location: "Botkyrka Rackethall",
   },
 ];
 
