@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/master-undefined-club/sw.js', { scope: '/master-undefined-club/' })})}
